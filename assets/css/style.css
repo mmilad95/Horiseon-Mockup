@@ -17,6 +17,8 @@ p {
     font-size: 16px;
 }
 
+/* elements were grouped together in the top for ease. */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -74,7 +76,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* both .content img and h2 were reduced to their own class */
 .content img {
     max-height: 200px
 }
@@ -83,6 +85,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* 3 different classes were condensed to bio due to repetition. */
 
 .bio {
     margin-bottom: 20px;
@@ -93,6 +97,7 @@ p {
     color: #ffffff;
 }
 
+/*.benefits class assimilated other classes due to repetition */
 .benefits {
     margin-right: 20px;
     padding: 20px;
